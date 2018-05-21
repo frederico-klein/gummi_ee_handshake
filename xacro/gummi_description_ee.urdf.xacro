@@ -22,7 +22,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/lowerarm_preroll_d.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/lowerarm_preroll_d.STL" />
       </geometry>
       <material
         name="">
@@ -36,7 +36,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/lowerarm_preroll_d.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/lowerarm_preroll_d.STL" />
       </geometry>
     </collision>
   </link>
@@ -75,7 +75,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/lowerarm.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/lowerarm.STL" />
       </geometry>
       <material
         name="">
@@ -89,7 +89,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/lowerarm.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/lowerarm.STL" />
       </geometry>
     </collision>
   </link>
@@ -131,7 +131,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/wrist.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/wrist.STL" />
       </geometry>
       <material
         name="">
@@ -145,7 +145,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/wrist.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/wrist.STL" />
       </geometry>
     </collision>
   </link>
@@ -202,7 +202,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i1.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i1.STL" />
       </geometry>
       <material
         name="">
@@ -216,7 +216,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i1.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i1.STL" />
       </geometry>
     </collision>
   </link>
@@ -262,7 +262,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i2.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i2.STL" />
       </geometry>
       <material
         name="">
@@ -276,7 +276,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i2.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i2.STL" />
       </geometry>
     </collision>
   </link>
@@ -322,7 +322,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i3.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i3.STL" />
       </geometry>
       <material
         name="">
@@ -336,7 +336,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i3.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i3.STL" />
       </geometry>
     </collision>
   </link>
@@ -382,7 +382,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i4.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i4.STL" />
       </geometry>
       <material
         name="">
@@ -396,7 +396,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i4.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i4.STL" />
       </geometry>
     </collision>
   </link>
@@ -442,7 +442,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i5.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i5.STL" />
       </geometry>
       <material
         name="">
@@ -456,7 +456,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://gummi_ee_$(env ROS_GUMMI_EE)/meshes/i5.STL" />
+          filename="package://gummi_rightee_$(env ROS_GUMMI_RIGHTEE)/meshes/i5.STL" />
       </geometry>
     </collision>
   </link>

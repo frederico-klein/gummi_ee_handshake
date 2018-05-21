@@ -1,6 +1,6 @@
-# gummi_ee_handshake
+# gummi_rightee_handshake
 
-![](https://raw.githubusercontent.com/wiki/frederico-klein/gummi_ee_handshake/images/handshake_dovetail.png "New handshake end effector with dovetail end.")
+![](https://raw.githubusercontent.com/wiki/frederico-klein/gummi_rightee_handshake/images/handshake_dovetail.png "New handshake end effector with dovetail end.")
 
 
 Package for definitions of the handshake End Effector.
@@ -9,17 +9,17 @@ Package for definitions of the handshake End Effector.
 
 Fork or clone this repository.
 
-Rename gummi_ee_handshake to gummi_ee_YOUR_OWN_EE
+Rename gummi_rightee_handshake to gummi_rightee_YOUR_OWN_EE
 
-`$ mv gummi_ee_handshake gummi_ee_YOUR_OWN_EE`
+`$ mv gummi_rightee_handshake gummi_rightee_YOUR_OWN_EE`
 
-Edit the file gummi_ee_YOUR_OWN_EE/scripts/set_env_gummi.sh
+Edit the file gummi_rightee_YOUR_OWN_EE/scripts/set_env_gummi.sh
 
-`$ gedit gummi_ee_YOUR_OWN_EE/set_env_gummi.sh`
+`$ gedit gummi_rightee_YOUR_OWN_EE/set_env_gummi.sh`
 
-And change the line containing "export ROS_GUMMI_EE=handshake" to "export ROS_GUMMI_EE=YOUR_OWN_EE"
+And change the line containing "export ROS_GUMMI_RIGHTEE=handshake" to "export ROS_GUMMI_RIGHTEE=YOUR_OWN_EE"
 
-You can now proceed to change gummi_ee_YOUR_OWN_EE/launch/controllers_base.launch to contain the motor drivers that your end effector has and where they are connected in the bus and the updating the yaml definitions of joints in gummi_ee_YOUR_OWN_EE/dynamixel
+You can now proceed to change gummi_rightee_YOUR_OWN_EE/launch/controllers_base.launch to contain the motor drivers that your end effector has and where they are connected in the bus and the updating the yaml definitions of joints in gummi_rightee_YOUR_OWN_EE/dynamixel
 
 ## Testing the end effector without a base
 
@@ -33,7 +33,7 @@ Run catkin_make after setting up your other packages.
 
 Do a source from devel/setup.bash
 
-Roslaunch the eddited manager_only_ee.launch from your gummi_ee_template.
+Roslaunch the eddited manager_only_ee.launch from your gummi_rightee_template.
 
 Now roslaunch the controllers_ee.launch
 
